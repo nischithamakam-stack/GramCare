@@ -1,16 +1,30 @@
-# React + Vite
+GramCare
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GramCare is a healthcare application developed as a hackathon project to connect patients and doctors through a simple interface.
 
-Currently, two official plugins are available:
+Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React
+- Vite
+- JavaScript
+- CSS
 
-## React Compiler
+How to Run the Frontend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Open the project folder in VS Code.
 
-## Expanding the ESLint configuration
+2. Open the terminal.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Install the dependencies:
+   
+   "npm install"
+
+4. Start the development server:
+   
+   "npm run dev"
+
+5. Open the local URL displayed in the terminal, usually "http://localhost:5173/".
+
+Project Status
+
+The frontend is under development. Backend integration and real doctor authentication will be connected as the project progresses.
